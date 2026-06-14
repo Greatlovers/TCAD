@@ -1,0 +1,35 @@
+# Sentaurus generated and temporary files
+*.tdr
+*.tdrdat
+*.plt
+*.log
+*_des.tdr
+*_Newton_*.tdr
+*.out
+*.err
+*.bak
+*.old
+*.tmp
+*.sav
+
+# Workbench / generated project state
+*.swb
+*.cmd~
+*.scm~
+*.jou
+*.history
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keep cleaned, extracted data and selected figures
+!results/*.csv
+!figures/*.png
+!figures/*.jpg
+!figures/*.svg
