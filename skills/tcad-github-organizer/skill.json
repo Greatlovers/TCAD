@@ -1,0 +1,20 @@
+{
+  "name": "tcad-github-organizer",
+  "version": "0.1.0",
+  "description": "Organize Sentaurus TCAD files into clean, maintainable GitHub repositories.",
+  "entrypoint": "SKILL.md",
+  "license": "MIT",
+  "tags": [
+    "sentaurus",
+    "tcad",
+    "github",
+    "repository-organization",
+    "power-devices",
+    "gan-hemt",
+    "sic",
+    "igbt"
+  ],
+  "maintainers": [
+    "Greatlovers"
+  ]
+}

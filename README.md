@@ -6,15 +6,10 @@ This repository organizes Sentaurus TCAD projects for long-term maintenance, por
 
 - `rc_igbt/`: Reverse-conducting IGBT TCAD project.
 
+## Skills
+
+- `skills/tcad-github-organizer/`: A reusable skill for organizing Sentaurus TCAD files into clean, maintainable GitHub repository structures.
+
 ## Repository Policy
 
-This repository is intended for educational, portfolio, and long-term maintenance purposes.
-
-Do not upload:
-
-- Synopsys official examples copied without authorization
-- Commercial device models
-- License files
-- Confidential school, company, or research-group data
-- Large intermediate simulation files
-- Uncleaned logs or temporary files
+This repository is intended for educational, portfolio, and long-term maintenance purposes. Review files before publishing and avoid committing proprietary, confidential, generated, or temporary simulation artifacts.
