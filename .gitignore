@@ -1,0 +1,24 @@
+# Sentaurus sensitive/proprietary material
+*.par
+sdevice.par
+Silicon.par
+Oxide.par
+PolySi.par
+pp*.par
+*MaterialDB*
+*datexcodes*
+*license*
+*licence*
+
+# Runtime noise / private environment detail
+*.log
+*.out
+*.job
+*~
+.history
+.codex-sentaurus-monitor.json
+backup_codex_*/
+
+# Local OS noise
+.DS_Store
+Thumbs.db

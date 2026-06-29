@@ -1,0 +1,67 @@
+# Copyright (C) 1994-2023 Synopsys Inc.
+# swbtree vcurrent, saved by gsub0
+
+# --- simulation flow
+sde sde "" {}
+sde Npbase "5e17" {5e17} V
+sde toxide "0.06" {0.06} V
+sde Nglobal "1e15" {1e15} R
+IcVg sdevice "" {}
+IcVg self_heating "off" {off on} V
+IcVg Vgemax "15" {15} V
+IcVg Vce "5" {5} R
+svisual svisual "" {}
+IcVc sdevice "" {}
+IcVc Vcemax "10" {10} V
+IcVc Vge "15" {15} R
+svisual1 svisual "" {}
+BV sdevice "" {}
+svisual2 svisual "" {}
+tran_reverse_recovery sdevice "" {}
+svisual3 svisual "" {}
+snapback sdevice "" {}
+svisual4 svisual "" {}
+# --- variables
+# --- scenarios and parameter specs
+scenario default Npbase ""
+scenario default toxide ""
+scenario default Nglobal ""
+scenario default self_heating ""
+scenario default Vgemax ""
+scenario default Vce ""
+scenario default Vcemax ""
+scenario default Vge ""
+# --- simulation tree
+0 1 0 {} {default} 0
+1 2 1 {5e17} {default} 0
+2 3 2 {0.06} {default} 0
+3 4 3 {1e15} {default} 0
+4 5 4 {} {default} 0
+5 6 5 {off} {default} 0
+6 8 6 {15} {default} 0
+7 10 8 {5} {default} 0
+8 12 10 {} {default} 0
+9 14 12 {} {default} 0
+10 16 14 {10} {default} 0
+11 18 16 {15} {default} 0
+12 20 18 {} {default} 0
+13 22 20 {} {default} 0
+14 24 22 {} {default} 0
+15 26 24 {} {default} 0
+16 28 26 {} {default} 0
+17 30 28 {} {default} 0
+18 32 30 {} {default} 0
+5 7 5 {on} {default} 0
+6 9 7 {15} {default} 0
+7 11 9 {5} {default} 0
+8 13 11 {} {default} 0
+9 15 13 {} {default} 0
+10 17 15 {10} {default} 0
+11 19 17 {15} {default} 0
+12 21 19 {} {default} 0
+13 23 21 {} {default} 0
+14 25 23 {} {default} 0
+15 27 25 {} {default} 0
+16 29 27 {} {default} 0
+17 31 29 {} {default} 0
+18 33 31 {} {default} 0
