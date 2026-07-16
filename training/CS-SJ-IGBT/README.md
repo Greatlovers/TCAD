@@ -35,7 +35,7 @@ The short-circuit result uses `VCC=250 V`, `VGE=15 V`, `Tfail=1000 K`, and `Area
 - [Turn-off](figures/fig_05_turn_off_comparison.png)
 - [Short circuit](figures/fig_06_short_circuit_comparison.png)
 
-PNG and SVG versions are provided. Selected DF-ISE `.plt` files, extracted CSV metrics, and the plotting scripts are included for reproducibility.
+Figures are provided in PNG format only. Selected DF-ISE `.plt` files, extracted CSV metrics, and the plotting scripts are included for reproducibility.
 
 ## Status and caveats
 
@@ -50,4 +50,3 @@ See [project documentation](docs/PROJECT_DOCUMENTATION.md), [result status](docs
 ## Copyright and redistribution
 
 Paper images are limited excerpts used for technical comparison. © 2025 IEEE. The complete paper is not redistributed. Sentaurus and Synopsys are trademarks of Synopsys, Inc.; use of the exported project requires a valid local installation and license. No license to third-party software or paper content is granted by this repository.
-

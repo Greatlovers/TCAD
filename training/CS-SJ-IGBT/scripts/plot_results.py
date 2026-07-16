@@ -58,7 +58,6 @@ def interp_x_at_y(x: np.ndarray, y: np.ndarray, target: float) -> float:
 
 def save(fig: plt.Figure, stem: str) -> None:
     fig.savefig(FIG / f"{stem}.png", dpi=240, bbox_inches="tight", facecolor="white")
-    fig.savefig(FIG / f"{stem}.svg", bbox_inches="tight", facecolor="white")
     plt.close(fig)
 
 
